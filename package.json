@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/novlan1/press-swiper#readme",
   "dependencies": {
-    "@zebra-ui/eslint-config": "^1.0.5",
     "fs-extra": "^11.2.0",
     "vue": "2.6.11",
     "vue-server-renderer": "~2.6.11",

@@ -1,7 +1,7 @@
 {
-    "name": "zebra-swiper",
+    "name": "press-swiper",
     "version": "1.0.0",
-    "description": "zebra-swiper示例项目",
+    "description": "press-swiper示例项目",
     "main": "main.js",
     "scripts": {
         "serve": "npm run dev:h5",

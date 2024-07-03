@@ -54,7 +54,7 @@
 
 **Fix**
 
-- 修复微信小程序使用`zebra-swiper`时，页面无法滚动。
+- 修复微信小程序使用`press-swiper`时，页面无法滚动。
 - 修复`app`报错`toJSON`的问题。
 - 修复`swiper`在`vue3`中无法自动播放的问题。
 
@@ -68,7 +68,7 @@
 
 **Fix**
 
-- 修复使用`zebra-swiper`时，页面无法滚动。（`zebra-swiper`将不再默认阻止事件冒泡）。
+- 修复使用`press-swiper`时，页面无法滚动。（`press-swiper`将不再默认阻止事件冒泡）。
 ## 2.2.1（2022-03-31）
 `2022-03-31`
 
@@ -105,7 +105,7 @@
 
 **Feat**
 
-- 高级案例加入开屏页。[点击预览](https://swiper.zebraui.com/h5/pages/demos/paper/index)
+- 高级案例加入开屏页。[点击预览](https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper/#/pages/demos/paper/index)
 
 **Fix**
 
@@ -116,7 +116,7 @@
 **Feat**
 
 - 新增高级案例模块。
-- 高级案例加入环游地球。[点击预览](https://swiper.zebraui.com/h5/pages/demos/travel-slider/index)
+- 高级案例加入环游地球。[点击预览](https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper/#/pages/demos/travel-slider/index)
 - 微信小程序，qq小程序使用wxs赋值样式。
 ## 2.1.2（2022-03-02）
 `2022-03-02`
@@ -239,9 +239,9 @@
 - 修复因未知原因引起的uni_modules组件上传错误的问题。
 
 `2022-01-14`
-### [v1.0.1](https://github.com/zebra-ui/zebra-uniapp-swiper)
+### [v1.0.1](https://github.com/novlan1/press-swiper)
 **Feature**
 
-- 新增zebra-swiper,zebra-swiper-item组件。
+- 新增press-swiper,press-swiper-item组件。
 - 新增多种3D切换效果。包括渐变，方块，3D流，翻转，卡片，创意性等多种切换效果。
 - 新增[示例项目](https://swiper.zebraui.com)，包含多种切换效果示例。

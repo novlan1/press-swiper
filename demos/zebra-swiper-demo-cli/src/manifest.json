@@ -1,5 +1,5 @@
 {
-    "name": "zebra-swiper",
+    "name": "press-swiper",
     "appid": "__UNI__CB7849F",
     "description": "适配多端的高自定义轮播组件",
     "versionName": "1.0.0",
@@ -106,7 +106,7 @@
         "appid": "1112328122"
     },
     "h5": {
-        "title": "zebra-swiper",
+        "title": "press-swiper",
         "router": {
             "mode": "history",
             "base": "/h5/"

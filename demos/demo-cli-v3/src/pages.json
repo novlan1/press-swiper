@@ -10,7 +10,7 @@
       "path": "pages/index/index",
       "style": {
         "navigationStyle": "custom",
-        "navigationBarTitleText": "zebra-swiper"
+        "navigationBarTitleText": "press-swiper"
       }
     },
     {
@@ -169,7 +169,7 @@
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "zebra-swiper",
+    "navigationBarTitleText": "press-swiper",
     "navigationBarBackgroundColor": "#e4ebf5",
     "backgroundColor": "#e4ebf5"
   }

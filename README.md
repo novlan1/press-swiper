@@ -23,6 +23,7 @@
 - 兼容多端，小程序也可实现 3D 轮播效果
 - 可自定义 3D 效果
 - 多种示例可供参考
+- forked from zebra-swiper, 可实现[分模块按需加载](https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper-docs/guide/press-swiper-plus/)
 
 ## 安装
 

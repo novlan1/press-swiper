@@ -8,8 +8,8 @@
 [![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue)
 [![zebraui](https://img.shields.io/badge/zebraUI-zebraUI-blue.svg)](https://zebraui.com)
 [![zebra-swiper](https://img.shields.io/badge/zebraSwiper-zebraSwiper-green.svg)](https://zebraui.com)
-[![GitHub stars](https://img.shields.io/github/stars/zebra-ui/zebra-uniapp-swiper.svg?style=social&label=Stars)](https://github.com/zebra-ui/zebra-uniapp-swiper)
-[![GitHub size](https://img.shields.io/github/languages/code-size/zebra-ui/zebra-uniapp-swiper.svg)](https://github.com/zebra-ui/zebra-uniapp-swiper)
+[![GitHub stars](https://img.shields.io/github/stars/zebra-ui/zebra-uniapp-swiper.svg?style=social&label=Stars)](https://github.com/novlan1/press-swiper)
+[![GitHub size](https://img.shields.io/github/languages/code-size/zebra-ui/zebra-uniapp-swiper.svg)](https://github.com/novlan1/press-swiper)
 
 [press-swiper](https://github.com/novlan1/press-swiper) 是基于 uniapp 开发的一款移动端轮播组件。 -->
 press-swiper 是基于 uniapp 开发的一款移动端轮播组件。
