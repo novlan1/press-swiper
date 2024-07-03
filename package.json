@@ -1,0 +1,62 @@
+{
+  "name": "press-swiper-project",
+  "version": "1.0.0",
+  "description": "适配多端的高自定义轮播组件，多种3D效果。全面对标swiperjs。",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "serve": "npm --prefix ./demos/zebra-swiper-demo-cli run serve",
+    "docs": "npm --prefix ./docs/zebra-swiper-docs run docs:dev",
+    "docs:build": "npm --prefix ./docs/zebra-swiper-docs run docs:build",
+    "async": "node script/async",
+    "lint-fix": "eslint --ext .tsx,.ts,.vue ./demos/zebra-swiper-demo-cli --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:igame": "node script/deploy/build-igame",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "lint:css": "stylelint **/*.{html,vue,css,sass,scss,less}",
+    "lint:css:fix": "stylelint --fix **/*.{html,vue,css,sass,scss,less}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novlan1/press-swiper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novlan1/press-swiper/issues"
+  },
+  "homepage": "https://github.com/novlan1/press-swiper#readme",
+  "dependencies": {
+    "@zebra-ui/eslint-config": "^1.0.5",
+    "fs-extra": "^11.2.0",
+    "vue": "2.6.11",
+    "vue-server-renderer": "~2.6.11",
+    "vue-template-compiler": "2.6.11"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
+    "@dcloudio/types": "^3.4.8",
+    "eslint-config-light": "^1.5.3",
+    "stylelint-config-common": "^1.0.10",
+    "t-comm": "^1.3.90",
+    "@types/jest": "^29.5.12",
+    "@types/webpack-env": "^1.18.5",
+    "@vue/babel-preset-app": "^5.0.8",
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-typescript": "~4.5.19",
+    "@vue/cli-service": "~4.5.11",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.43.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "lerna": "^8.1.3",
+    "miniprogram-api-typings": "^3.12.2",
+    "nx": "^19.3.0",
+    "postcss-scss": "^3.0.5",
+    "stylelint": "^14.14.1",
+    "typescript": "^3.9.7",
+    "vuepress": "^1.9.10"
+  }
+}

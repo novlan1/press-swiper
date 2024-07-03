@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "src/*": [
+        "src/*"
+      ],
+      "press-swiper-shared/*": [
+        "src/press-swiper-shared/*"
+      ],
+      "press-swiper-module/*": [
+        "src/press-swiper-module/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "types"
+    ],
+    "jsx": "preserve"
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "./**/*.spec.ts",
+    "./**/*.test.ts"
+  ]
+}

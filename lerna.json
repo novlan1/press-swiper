@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "pnpm",
+  "version": "2.3.1",
+  "command": {
+    "version": {
+      "exact": true,
+      "message": "chore(release): publish",
+      "allowBranch": [
+        "release",
+        "beta"
+      ],
+      "conventionalCommits": true,
+      "includeMergedTags": true
+    },
+    "publish": {
+      "registry": "https://mirrors.tencent.com/npm/"
+    },
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock",
+        "--legacy-peer-deps"
+      ]
+    }
+  }
+}
