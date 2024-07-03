@@ -10,7 +10,5 @@
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "@zebra-ui/eslint-config": "^1.0.1"
-    }
+    "dependencies": {}
 }

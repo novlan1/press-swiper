@@ -30,7 +30,7 @@
   "dependencies": {
     "fs-extra": "^11.2.0",
     "vue": "2.6.11",
-    "vue-server-renderer": "~2.6.11",
+    "vue-server-renderer": "2.6.11",
     "vue-template-compiler": "2.6.11"
   },
   "devDependencies": {
