@@ -5,9 +5,13 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "init:env": "node script/env/rainbow-env",
     "serve": "npm --prefix ./demos/zebra-swiper-demo-cli run serve",
     "docs": "npm --prefix ./docs/zebra-swiper-docs run docs:dev",
     "docs:build": "npm --prefix ./docs/zebra-swiper-docs run docs:build",
+    "demo:build": "npm --prefix ./demos/demo-cli-v3 run build:h5",
+    "deploy:only": "node script/deploy/docs-mine",
+    "deploy:mine": "npm run demo:build && npm run docs:build && npm run deploy:only",
     "async": "node script/async",
     "lint-fix": "eslint --ext .tsx,.ts,.vue ./demos/zebra-swiper-demo-cli --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
