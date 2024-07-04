@@ -24,7 +24,7 @@ module.exports = {
       { text: '组件', link: '/component/' },
       { text: '配置', link: '/basic/' },
       { text: '性能', link: '/performance/' },
-      // { text: 'h5演示', link: 'https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper/#' },
+      // { text: 'h5演示', link: 'https://novlan1.github.io/press-swiper/h5/#' },
       // { text: 'uniapp使用', link: 'https://ext.dcloud.net.cn/plugin?id=7273' },
       // { text: 'zebra-ui组件库', link: 'https://zebraui.com' },
       // { text: 'github', link: 'https://github.com/novlan1/press-swiper' },

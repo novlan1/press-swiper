@@ -139,5 +139,5 @@ const onChange = () => {
 ```
 
 
-<Simulator src="https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper/#/pages/pagination/index"></Simulator>
+<Simulator src="https://novlan1.github.io/press-swiper/h5/#/pages/pagination/index"></Simulator>
 

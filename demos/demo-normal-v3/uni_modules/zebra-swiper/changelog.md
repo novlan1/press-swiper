@@ -105,7 +105,7 @@
 
 **Feat**
 
-- 高级案例加入开屏页。[点击预览](https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper/#/pages/demos/paper/index)
+- 高级案例加入开屏页。[点击预览](https://novlan1.github.io/press-swiper/h5/#/pages/demos/paper/index)
 
 **Fix**
 
@@ -116,7 +116,7 @@
 **Feat**
 
 - 新增高级案例模块。
-- 高级案例加入环游地球。[点击预览](https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper/#/pages/demos/travel-slider/index)
+- 高级案例加入环游地球。[点击预览](https://novlan1.github.io/press-swiper/h5/#/pages/demos/travel-slider/index)
 - 微信小程序，qq小程序使用wxs赋值样式。
 ## 2.1.2（2022-03-02）
 `2022-03-02`
