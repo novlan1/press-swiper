@@ -132,7 +132,7 @@
 
 **Docs**
 
-- [文档新增事件。](https://swiper.zebraui.com/basic/events/)
+- 文档新增事件。
 
 ## 2.1.0（2022-02-27）
 
@@ -260,4 +260,4 @@
 
 - 新增 zebra-swiper, zebra-swiper-item 组件。
 - 新增多种 3D 切换效果。包括渐变，方块，3D 流，翻转，卡片，创意性等多种切换效果。
-- 新增[示例项目](https://swiper.zebraui.com)，包含多种切换效果示例。
+- 新增示例项目，包含多种切换效果示例。
