@@ -51,25 +51,25 @@ const zswiper = ref();
 const list = ref([{
   bgColor: '#6002EE',
   fillStyle: {},
-  url: '../../../static/images/banks.svg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/banks.svg',
   title: 'Banks',
   text: 'Banks are financial institutions that provide a wide range of financial services, including savings accounts, loans, investment opportunities, and more.',
 }, {
   bgColor: '#008386',
   fillStyle: {},
-  url: '../../../static/images/hotels.svg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/hotels.svg',
   title: 'Hotels',
   text: 'Hotels are establishments that offer accommodation, amenities, and services to travelers and guests, providing a comfortable and convenient stay away from home.',
 }, {
   bgColor: '#a41fa8',
   fillStyle: {},
-  url: '../../../static/images/business.svg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/business.svg',
   title: 'Business',
   text: 'Business involves activities aimed at creating products or services, generating profits, and contributing to the economy.',
 }, {
   bgColor: '#007700',
   fillStyle: {},
-  url: '../../../static/images/checkmark.svg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/checkmark.svg',
   title: 'Done',
   text: 'Now you can continue using it.',
 }]);
