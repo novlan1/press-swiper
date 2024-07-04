@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>按需加载 | Press Swiper</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press%2Fimg%2Fpress-ui-avatar-transparent.png">
+    <meta name="description" content="基于uniapp，适配多端的高度自定义轮播组件">
+    
+    <link rel="preload" href="/press-swiper/assets/css/0.styles.09eb3c1e.css" as="style"><link rel="preload" href="/press-swiper/assets/js/app.398373d5.js" as="script"><link rel="preload" href="/press-swiper/assets/js/2.91cabb42.js" as="script"><link rel="preload" href="/press-swiper/assets/js/1.9032b399.js" as="script"><link rel="preload" href="/press-swiper/assets/js/60.a4b3c4cc.js" as="script"><link rel="prefetch" href="/press-swiper/assets/js/10.580525f2.js"><link rel="prefetch" href="/press-swiper/assets/js/11.6d82691a.js"><link rel="prefetch" href="/press-swiper/assets/js/12.4ce584bf.js"><link rel="prefetch" href="/press-swiper/assets/js/13.ce997758.js"><link rel="prefetch" href="/press-swiper/assets/js/14.1b8357d9.js"><link rel="prefetch" href="/press-swiper/assets/js/15.eb6ff129.js"><link rel="prefetch" href="/press-swiper/assets/js/16.5e8bc0a9.js"><link rel="prefetch" href="/press-swiper/assets/js/17.00eff885.js"><link rel="prefetch" href="/press-swiper/assets/js/18.1401f33f.js"><link rel="prefetch" href="/press-swiper/assets/js/19.381c8d2c.js"><link rel="prefetch" href="/press-swiper/assets/js/20.c987122b.js"><link rel="prefetch" href="/press-swiper/assets/js/21.026ca359.js"><link rel="prefetch" href="/press-swiper/assets/js/22.8912f688.js"><link rel="prefetch" href="/press-swiper/assets/js/23.299d3574.js"><link rel="prefetch" href="/press-swiper/assets/js/24.5291232a.js"><link rel="prefetch" href="/press-swiper/assets/js/25.000b038d.js"><link rel="prefetch" href="/press-swiper/assets/js/26.56731b63.js"><link rel="prefetch" href="/press-swiper/assets/js/27.c5c96d23.js"><link rel="prefetch" href="/press-swiper/assets/js/28.b64c738a.js"><link rel="prefetch" href="/press-swiper/assets/js/29.07b3c660.js"><link rel="prefetch" href="/press-swiper/assets/js/3.0b74f8ab.js"><link rel="prefetch" href="/press-swiper/assets/js/30.e93d690a.js"><link rel="prefetch" href="/press-swiper/assets/js/31.54f2ac8e.js"><link rel="prefetch" href="/press-swiper/assets/js/32.7ff6720e.js"><link rel="prefetch" href="/press-swiper/assets/js/33.7e109bd2.js"><link rel="prefetch" href="/press-swiper/assets/js/34.f9122ae8.js"><link rel="prefetch" href="/press-swiper/assets/js/35.9b255a38.js"><link rel="prefetch" href="/press-swiper/assets/js/36.5b4401b2.js"><link rel="prefetch" href="/press-swiper/assets/js/37.ecddf523.js"><link rel="prefetch" href="/press-swiper/assets/js/38.1d8f7bb8.js"><link rel="prefetch" href="/press-swiper/assets/js/39.5f9ba242.js"><link rel="prefetch" href="/press-swiper/assets/js/4.5898b6b7.js"><link rel="prefetch" href="/press-swiper/assets/js/40.cb3755f9.js"><link rel="prefetch" href="/press-swiper/assets/js/41.7222f239.js"><link rel="prefetch" href="/press-swiper/assets/js/42.089ae4f5.js"><link rel="prefetch" href="/press-swiper/assets/js/43.2b3fc82b.js"><link rel="prefetch" href="/press-swiper/assets/js/44.1ab326ea.js"><link rel="prefetch" href="/press-swiper/assets/js/45.9e8fac95.js"><link rel="prefetch" href="/press-swiper/assets/js/46.79ee9f7d.js"><link rel="prefetch" href="/press-swiper/assets/js/47.7db7cfee.js"><link rel="prefetch" href="/press-swiper/assets/js/48.2d8b8b96.js"><link rel="prefetch" href="/press-swiper/assets/js/49.a07fc9df.js"><link rel="prefetch" href="/press-swiper/assets/js/5.632871a0.js"><link rel="prefetch" href="/press-swiper/assets/js/50.131e98eb.js"><link rel="prefetch" href="/press-swiper/assets/js/51.5ee34805.js"><link rel="prefetch" href="/press-swiper/assets/js/52.10162de6.js"><link rel="prefetch" href="/press-swiper/assets/js/53.457dcf86.js"><link rel="prefetch" href="/press-swiper/assets/js/54.e3295682.js"><link rel="prefetch" href="/press-swiper/assets/js/55.94c39185.js"><link rel="prefetch" href="/press-swiper/assets/js/56.cd308cf8.js"><link rel="prefetch" href="/press-swiper/assets/js/57.fef2e36f.js"><link rel="prefetch" href="/press-swiper/assets/js/58.0ee225e8.js"><link rel="prefetch" href="/press-swiper/assets/js/59.8cc4fd31.js"><link rel="prefetch" href="/press-swiper/assets/js/6.bb44d4cd.js"><link rel="prefetch" href="/press-swiper/assets/js/61.80bb1eca.js"><link rel="prefetch" href="/press-swiper/assets/js/62.e7edb298.js"><link rel="prefetch" href="/press-swiper/assets/js/63.61f3eb87.js"><link rel="prefetch" href="/press-swiper/assets/js/7.38f7ca2b.js"><link rel="prefetch" href="/press-swiper/assets/js/vendors~docsearch.5e19b665.js">
+    <link rel="stylesheet" href="/press-swiper/assets/css/0.styles.09eb3c1e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/press-swiper/" class="home-link router-link-active"><img src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press%2Fimg%2Fpress-ui-avatar-transparent.png" alt="Press Swiper" class="logo"> <span class="site-name can-hide">Press Swiper</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/press-swiper/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/press-swiper/component/" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="/press-swiper/basic/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/press-swiper/performance/" class="nav-link">
+  性能
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/press-swiper/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/press-swiper/component/" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="/press-swiper/basic/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/press-swiper/performance/" class="nav-link">
+  性能
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/press-swiper/guide/" aria-current="page" class="sidebar-link">介绍</a></li><li><a href="/press-swiper/guide/plan/" class="sidebar-link">计划</a></li><li><a href="/press-swiper/guide/press-swiper-plus/" aria-current="page" class="active sidebar-link">按需加载</a></li><li><a href="/press-swiper/guide/notice/" class="sidebar-link">注意事项</a></li><li><a href="/press-swiper/guide/questions/" class="sidebar-link">常见问题</a></li><li><a href="/press-swiper/guide/changelog/" class="sidebar-link">更新记录</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="按需加载"><a href="#按需加载" class="header-anchor">#</a> 按需加载</h1> <p><code>press-swiper</code> 会把所有的 <code>module</code> 一起注入，导致包体积较大，<code>press-swiper-plus</code> 探索了一种按需注入的方案。</p> <p>简单来说，<code>press-swiper-plus</code> 只提供最基础的 <code>swiper</code>，其他功能，比如切换效果、控制器、虚拟列表等都由开发者自行注册。</p> <h2 id="使用方式"><a href="#使用方式" class="header-anchor">#</a> 使用方式</h2> <p>具体使用方式如下。</p> <ol><li>安装依赖</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> i press-swiper-plus press-swiper-module press-swiper-shared
+</code></pre></div><ol start="2"><li>引入 <code>press-swiper-plus</code></li></ol> <p>下面是在 <code>cli</code> 模式下，<code>press-swiper-plus</code> 的注册。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> ZSwiper <span class="token keyword">from</span> <span class="token string">'press-swiper-plus/components/z-swiper/z-swiper.vue'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> ZSwiperItem <span class="token keyword">from</span> <span class="token string">'press-swiper-plus/components/z-swiper-item/z-swiper-item.vue'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">components</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    ZSwiper<span class="token punctuation">,</span>
+    ZSwiperItem<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>按需注册 <code>module</code></li></ol> <p>比如传给 <code>options.effect</code> 为 <code>carousel</code>，则可以从 <code>press-swiper-module</code> 中注册 <code>EffectCarousel</code>。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Swiper <span class="token keyword">from</span> <span class="token string">'press-swiper-shared/libs/core.js'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> EffectCarousel <span class="token keyword">from</span> <span class="token string">'press-swiper-module/effect-carousel'</span><span class="token punctuation">;</span>
+
+Swiper<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  EffectCarousel<span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>也可以注册同时注册多个，比如：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Swiper <span class="token keyword">from</span> <span class="token string">'press-swiper-shared/libs/core.js'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> EffectCarousel <span class="token keyword">from</span> <span class="token string">'press-swiper-module/effect-carousel'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Thumbs <span class="token keyword">from</span> <span class="token string">'press-swiper-module/thumbs'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Scrollbar <span class="token keyword">from</span> <span class="token string">'press-swiper-module/scrollbar'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Virtual <span class="token keyword">from</span> <span class="token string">'press-swiper-module/virtual'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Controller <span class="token keyword">from</span> <span class="token string">'press-swiper-module/controller'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> WillChange <span class="token keyword">from</span> <span class="token string">'press-swiper-module/will-change'</span><span class="token punctuation">;</span>
+
+
+Swiper<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  EffectCarousel<span class="token punctuation">,</span>
+  Thumbs<span class="token punctuation">,</span>
+  Scrollbar<span class="token punctuation">,</span>
+  Virtual<span class="token punctuation">,</span>
+  Controller<span class="token punctuation">,</span>
+  WillChange<span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="4"><li>配置 <code>transpileDependencies</code></li></ol> <p>同所有 <code>uni-app</code> 组件库一样，<code>press-swiper-plus</code> 也需要配置 <code>transpileDependencies</code>：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// vue.config.js</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">transpileDependencies</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">'press-swiper-plus'</span><span class="token punctuation">,</span>
+    <span class="token string">'press-swiper-module'</span><span class="token punctuation">,</span>
+    <span class="token string">'press-swiper-shared'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="模块"><a href="#模块" class="header-anchor">#</a> 模块</h2> <p>下面是所有可按需注入的模块。</p> <table><thead><tr><th>模块</th> <th>描述</th> <th>引入路径</th></tr></thead> <tbody><tr><td>Autoplay</td> <td>自动播放</td> <td>press-swiper-module/autoplay</td></tr> <tr><td>FreeMode</td> <td>自由模式</td> <td>press-swiper-module/free-mode</td></tr> <tr><td>EffectFade</td> <td>切换效果，淡入</td> <td>press-swiper-module/effect-fade</td></tr> <tr><td>EffectCube</td> <td>切换效果，方块</td> <td>press-swiper-module/effect-cube</td></tr> <tr><td>EffectCoverflow</td> <td>切换效果，3D流</td> <td>press-swiper-module/effect-coverflow</td></tr> <tr><td>EffectFlip</td> <td>切换效果，3D翻转</td> <td>press-swiper-module/effect-flip</td></tr> <tr><td>EffectCards</td> <td>切换效果，卡片式</td> <td>press-swiper-module/effect-cards</td></tr> <tr><td>EffectCreative</td> <td>切换效果，创意性</td> <td>press-swiper-module/effect-creative</td></tr> <tr><td>EffectPanorama</td> <td>切换效果，全景</td> <td>press-swiper-module/effect-panorama</td></tr> <tr><td>EffectCarousel</td> <td>切换效果，层叠</td> <td>press-swiper-module/effect-carousel</td></tr> <tr><td>Navigation</td> <td>切换器</td> <td>press-swiper-module/navigation</td></tr> <tr><td>Pagination</td> <td>指示器</td> <td>press-swiper-module/pagination</td></tr> <tr><td>Thumbs</td> <td>缩略图</td> <td>press-swiper-module/thumbs</td></tr> <tr><td>Scrollbar</td> <td>滚动条</td> <td>press-swiper-module/scrollbar</td></tr> <tr><td>Virtual</td> <td>虚拟列表</td> <td>press-swiper-module/virtual</td></tr> <tr><td>Controller</td> <td>控制器</td> <td>press-swiper-module/controller</td></tr> <tr><td>WillChange</td> <td>设置 <code>willChange</code></td> <td>press-swiper-module/will-change</td></tr></tbody></table> <h2 id="效果对比"><a href="#效果对比" class="header-anchor">#</a> 效果对比</h2> <p>下面是某项目使用 <code>press-swiper</code> 和 <code>press-swiper-plus</code> 的对比。</p> <p>完全未引入时，主包为 <code>6.72MB</code>。</p> <img src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/article/2024/6/own_mike_6863f2ddaab3d34b38.png" width="500"> <p>引入 <code>press-swiper</code> 时，主包为 <code>6.95MB</code>，增大了 <code>230KB</code>。</p> <img src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/article/2024/6/own_mike_d064b6c78e3b837528.png" width="500"> <p>引入 <code>press-swiper-plus</code> 时，主包为 <code>6.89MB</code>，相比 <code>press-swiper</code> 减小了 <code>60KB</code>。</p> <img src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/article/2024/6/own_mike_63da361fa35c862748.png" width="500"></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/press-swiper/guide/plan/" class="prev">
+        计划
+      </a></span> <span class="next"><a href="/press-swiper/guide/notice/">
+        注意事项
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/press-swiper/assets/js/app.398373d5.js" defer></script><script src="/press-swiper/assets/js/2.91cabb42.js" defer></script><script src="/press-swiper/assets/js/1.9032b399.js" defer></script><script src="/press-swiper/assets/js/60.a4b3c4cc.js" defer></script>
+  </body>
+</html>
