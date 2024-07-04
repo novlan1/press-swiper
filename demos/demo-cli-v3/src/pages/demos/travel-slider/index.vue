@@ -9,41 +9,41 @@
         >
           <image
             class="planet-image"
-            src="../../../static/images/earth.svg"
+            src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/earth.svg"
             mode="heightFix"
           />
           <view :class="['travel-slider-cities',`travel-slider-cities-${list.length > 4 ? '8' : '4'}`]">
             <image
               class="cities-image"
-              src="../../../static/images/usa.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/usa.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/england.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/england.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/france.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/france.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/italy.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/italy.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/russia.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/russia.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/egypt.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/egypt.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/india.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/india.svg"
             />
             <image
               class="cities-image"
-              src="../../../static/images/japan.svg"
+              src="https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/japan.svg"
             />
           </view>
         </view>
@@ -85,35 +85,35 @@ import {
 } from 'vue';
 const zswiper = ref();
 const list = ref([{
-  url: '../../../static/images/usa.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/usa.jpg',
   title: 'United States',
   subTitle: '8,295 properties',
 }, {
-  url: '../../../static/images/england.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/england.jpg',
   title: 'England',
   subTitle: '1,110 properties',
 }, {
-  url: '../../../static/images/france.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/france.jpg',
   title: 'France',
   subTitle: '314 properties',
 }, {
-  url: '../../../static/images/italy.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/italy.jpg',
   title: 'Italy',
   subTitle: '1,200 properties',
 }, {
-  url: '../../../static/images/russia.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/russia.jpg',
   title: 'Russia',
   subTitle: '12,231 properties',
 }, {
-  url: '../../../static/images/egypt.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/egypt.jpg',
   title: 'Egypt',
   subTitle: '505 properties',
 }, {
-  url: '../../../static/images/india.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/india.jpg',
   title: 'India',
   subTitle: '2,300 properties',
 }, {
-  url: '../../../static/images/japan.jpg',
+  url: 'https://mike-1255355338.cos.ap-guangzhou.myqcloud.com/press/press-swiper/demo/japan.jpg',
   title: 'Japan',
   subTitle: '1,700 properties',
 }]);
