@@ -7,7 +7,7 @@
 <p align="center">基于 uniapp，全面对标 swiper，并实现全端兼容。</p>
 
 <p align="center">
-	🔥 <a href="https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper-docs/">文档网站</a>
+	🔥 <a href="https://novlan1.github.io/press-swiper/">文档网站</a>
 	&nbsp;
 	&nbsp;
 	🚀 <a href="https://h5.igame.qq.com/pmd-mobile.support.press-ui.press-ui/" target="_blank">Press UI组件库</a>

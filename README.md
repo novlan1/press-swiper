@@ -15,7 +15,7 @@
 
 ## 介绍
 
-[press-swiper](https://github.com/novlan1/press-swiper) 是基于 uniapp 开发的一款移动端轮播组件，旨在实现一些复杂的轮播交互。
+[press-swiper](https://novlan1.github.io/press-swiper/) 是基于 uniapp 开发的一款移动端轮播组件，旨在实现一些复杂的轮播交互。
 
 ## 特性
 
@@ -23,7 +23,7 @@
 - 兼容多端，小程序也可实现 3D 轮播效果
 - 可自定义 3D 效果
 - 多种示例可供参考
-- forked from zebra-swiper, 可实现[分模块按需加载](https://h5.igame.qq.com/pmd-mobile.pmd-h5.press-swiper.press-swiper-docs/guide/press-swiper-plus/)
+- forked from zebra-swiper, 可实现[分模块按需加载](https://novlan1.github.io/press-swiper/guide/press-swiper-plus/)
 
 ## 安装
 
